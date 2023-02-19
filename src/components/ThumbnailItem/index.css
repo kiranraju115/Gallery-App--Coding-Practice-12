@@ -1,0 +1,13 @@
+/* Write your code here. */
+.thumbnail-item-list {
+  list-style-type: none;
+  margin: 10px;
+}
+.normal-thubnail {
+  opacity: 0.5;
+}
+.active-thumbnail-font {
+  opacity: 1;
+}
+@media (max-width: 576px) {
+}

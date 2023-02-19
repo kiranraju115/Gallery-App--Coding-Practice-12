@@ -1,0 +1,33 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery-container {
+  display: flex;
+  justify-content: center;
+
+  width: 80%;
+  flex-direction: column;
+  height: 80%;
+}
+.header {
+  color: #1e293b;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #64748b;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.ul-gallery-container {
+  display: flex;
+}
+@media (max-width: 576px) {
+  .ul-gallery-container {
+    flex-wrap: wrap;
+  }
+}
